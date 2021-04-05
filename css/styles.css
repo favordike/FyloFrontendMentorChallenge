@@ -1,0 +1,265 @@
+body {
+  margin: 5px 15px;
+  padding: 10px 15px;
+  background-image: url("bg-curvy-desktop.svg");
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  color: #fff;
+
+}
+.logos {
+  height: 40px;
+  width: 100px;
+}
+.nav {
+  list-style: none;
+  display: flex;
+
+}
+
+.nav li {
+  padding: 0 10px;
+}
+.intro {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(217, 28%, 15%);
+  width: 100%;
+}
+.intro-image {
+  padding: 10px 0;
+  margin: 20px 0;
+  justify-content: center;
+  display: flex;
+}
+.image-illustration{
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+.accessfiles {
+  display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+.accessfile-subdiv {
+width: 500px;
+justify-content: center;
+text-align: center;
+}
+.access-details {
+  display: flex;
+    justify-content: center;
+}
+.access-details-subdiv {
+  width: 500px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+
+
+}
+.button {
+  width: 150px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: hsl(176, 68%, 64%);
+
+}
+.button h5 {
+  margin: 0;
+padding: 7px 4px;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  padding: 10px auto;
+  margin: 50px auto;
+}
+.sub-features {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-row-gap: 50px;
+  grid-column-gap: 20px;
+  text-align: center;
+
+}
+.feature1 {
+  margin: 0 10px;
+  padding: 0 40px;
+}
+.feature1 h4 {
+  margin: 5px auto;
+}
+.productive {
+  display: flex;
+  justify-content: center;
+}
+.productivity {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-column-gap: 10px;
+}
+.stay-productive img {
+  width: 450px;
+  height: 340px;
+}
+.stay-productive1 {
+  padding: 30px 50px 0;
+margin-left: 5px;
+}
+.stay-productive1 a {
+  color: hsl(176, 68%, 64%);
+}
+.stay-productive1 img {
+
+}
+.quote {
+  margin-left: 30px;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+.testimonials {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 300px;
+
+}
+.testimonial-div {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.testifiers {
+  background-color:  hsl(219, 30%, 18%);
+}
+.testifiers img {
+  border-radius: 40px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 10px;
+}
+.testifiers p {
+  margin-left: 13px;
+}
+.mail {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: +1;
+  right: 450px;
+  bottom: -1460px;
+  background-color: hsl(217, 28%, 15%);
+  border-radius: 4px;
+  text-align: center;
+
+}
+.mailsto {
+  width: 500px;
+  text-align: center;
+
+
+}
+.email {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.bot {
+  border-radius: 15px;
+  padding: 5px;
+  background-color: hsl(176, 68%, 64%);
+  margin-right: 4px;
+}
+.footer {
+  background-color: hsl(216, 53%, 9%);
+  padding-top: 100px;
+  position: relative;
+}
+.footer-grid {
+  display: flex;
+  justify-content: center;
+
+}
+.div-contacts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+ margin top: 40px;
+ width: 95%;
+
+}
+.contacts {
+  padding: 2px;
+}
+.contacts ul {
+  list-style: none;
+}
+.faq {
+  padding: 0 13px;
+}
+.map {
+  margin: 0 3px;
+  float: left;
+}
+.contacts p {
+  display: inline;
+  text-align: right;
+}
+.footer-logo img {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.som {
+  padding: 10px 4px 0;
+}
+.foota {
+  text-align: center;
+  color: white;
+
+}
+.attribution a {
+  color: #b4aee8;
+  display: block;
+  margin: 0 2px;
+}
+.attribution a:hover {
+  color: #7868e6;
+  transform: rotate(5Deg);
+}
+.attribution {
+
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+@media (max-width: 998px) {
+  .mail {bottom: -2450px;
+    right: -20px;
+    margin: 0 40px;
+  }
+
+}
